@@ -76,7 +76,7 @@ int main(int argc,char *argv[]){
 				}
 			}
 			else{
-				send(new_sockfd,"The password don't match\n",24,0);
+				send(new_sockfd,"The password doesn't match\n",24,0);
 			}
 		}
 	//End of Background process
